@@ -17,7 +17,7 @@ add_executable(main
 	main.c
 	)
 
-target_link_libraries(main pico_stdlib hardware_gpio hardware_flash hardware_irq hardware_sync hardware_i2c hardware_rtc)
+target_link_libraries(main pico_stdlib hardware_gpio hardware_flash hardware_irq hardware_sync hardware_i2c hardware_rtc hardware_adc)
 
 pico_enable_stdio_usb(main 1)
 pico_enable_stdio_uart(main 0)
